@@ -1,4 +1,3 @@
-cat > ~/ML_course/update_course.sh << 'EOF'
 #!/bin/bash
 set -e
 
@@ -18,4 +17,3 @@ git push origin main
 
 echo ">>> If you want your exercise branch updated too, run:"
 echo "    git checkout ex01-emma && git rebase main"
-EOF
