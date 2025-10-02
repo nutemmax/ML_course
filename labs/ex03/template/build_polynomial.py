@@ -18,12 +18,6 @@ def build_poly(x, degree):
     array([[1.  , 0.  , 0.  ],
            [1.  , 1.5 , 2.25]])
     """
-    # ***************************************************
-    # INSERT YOUR CODE HERE
-    # polynomial basis function: TODO
-    # this function should return the matrix formed
-    # by applying the polynomial basis to the input data
-    # ***************************************************
     N = len(x)
     tx = np.ones((N, degree + 1))
     for d in range(1, degree + 1):
